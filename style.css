@@ -1,7 +1,28 @@
-p {
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-button:hover {
+    cursor: wait;
+}
+
+.header-button {
+    padding: 20px 20px 15px 15px;
+    background-color: #8000A0;
+    color: #f5f5f5;
+    display: inline;
+}
+
+h1 {
     color: red;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
+} 
+
+img:hover {
+    transform: rotate(180deg);
 }
