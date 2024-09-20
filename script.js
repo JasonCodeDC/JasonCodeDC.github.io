@@ -14,5 +14,5 @@ function test() {
     for (let i = 0; i <= 1000000; i++) {
         string = string + i.toString()
     }
-    document.getElementsById("testcontainer").innerHTML = string
+    document.getElementById("testcontainer").innerHTML = string
 }
